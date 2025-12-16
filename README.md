@@ -154,13 +154,14 @@ pip install numpy networkx pandas matplotlib plotly pillow
 ## ▶️ How to Run
 
 1. Open **CoppeliaSim**
-2. Open the file main.py
-3. Run main.py
-4. Configure the warehouse using the GUI
-5. Attent the creation of the scene
-6. Click **Visualize Graph** to visualize the graph of the warehouse
-7. Click **Start Simulation** on GUI to start simulation
-8. Click **Show Statistic** to show statistic regarding the running simulation
+2. Go to the Agvs_model folder and copy the path of the 'Omnidirectional Platform.ttm' file.
+3. Copy the previouse path into file main.py in row 114 inside the function import_all_agvs
+5. Run main.py
+6. Configure the warehouse using the GUI
+7. Attent the creation of the scene
+8. Click **Visualize Graph** to visualize the graph of the warehouse
+9. Click **Start Simulation** on GUI to start simulation
+10. Click **Show Statistic** to show statistic regarding the running simulation
 
 ---
 
