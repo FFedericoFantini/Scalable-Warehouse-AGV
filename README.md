@@ -31,12 +31,6 @@ The warehouse is structured as:
 - **Columns per shelf**
 - **Levels per shelf**
 
-📐 **Total storage capacity formula:**
-
-```text
-capacity = n_aisles × columns_per_shelf × levels_per_shelf
-```
----
 
 ## 🧠 System Architecture
 
@@ -115,6 +109,8 @@ Project_simulation/
 
 ├── Task_Management/
 │ └── order_simulator.py
+│ └── order.json
+│ └── order_distribution.png
 │ └── pallet_scheduler.py
 
 ├── Warehouse_Creation/
